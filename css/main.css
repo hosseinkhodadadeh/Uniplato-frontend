@@ -16,3 +16,42 @@
     padding-top: 2px;
 }
 
+
+#counterForm {
+    position: absolute;
+    left: 15%;
+    display: none;
+}
+
+.main {
+    margin-left: 5px;
+}
+
+.counter {
+    width: 45px;
+    border-radius: 0px !important;
+    text-align: center;
+}
+
+.up_count {
+    margin-bottom: 10px;
+    margin-left: -4px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.down_count {
+    margin-bottom: 10px;
+    margin-right: -4px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+#alertBox {
+    color: #c09853;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    display: none;
+}

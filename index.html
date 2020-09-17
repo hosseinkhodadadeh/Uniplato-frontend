@@ -1,12 +1,32 @@
 <html>
 <head>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css?1">
 
 </head>
 <body>
 <div id="Cateorylist"></div>
+
+
+
+
+<div id="counterForm"><br>
+    <div class='main'>
+        <input type="hidden" id="txtCategoryId" value="">
+        <div id ="category_title">Category Title</div>
+        <button class='down_count btn btn-info' title='Down'><i class='icon-minus'></i></button>
+        <input class='counter' type="text" placeholder="value..." value='0' id="txtCategoryCounter"/>
+        <button class='up_count btn btn-info' title='Up'><i class='icon-plus'></i></button>
+    </div>
+    <label class='muted'>(or type any numeric value)</label>
+</div>
+
+
+<div class="alert  " id="alertBox">
+    Something went wrong!<br>Please try again.
+</div>
 
 
 <script src="js/categories.js?1"></script>
